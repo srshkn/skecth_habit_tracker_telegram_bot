@@ -1,4 +1,4 @@
-# HabitTrackerBot (https://t.me/HabitTracker_robot)
+# [HabitTrackerBot](https://t.me/HabitTracker_robot)
 
 [English](#habit-tracker-telegram-bot)
 [Russian](#telegram-бот-для-отслеживания-привычек)
