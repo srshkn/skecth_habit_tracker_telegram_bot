@@ -1,6 +1,4 @@
-# sketch_habit_tracker_telegram_bot
-
-[HabitTrackerBot](#https://t.me/HabitTracker_robot)
+# HabitTrackerBot (https://t.me/HabitTracker_robot)
 
 [English](#habit-tracker-telegram-bot)
 [Russian](#telegram-бот-для-отслеживания-привычек)
@@ -8,6 +6,8 @@
 ## Habit tracker Telegram-bot
 
 HabitTrackerBot is a bot for fast and convenient tracking of newbies. Create habits, mark your progress with one click, receive reminders, and analyze your progress. Your personal assistant to create useful routines!
+
+### Main functions (under development)
 
 ## Telegram-бот для отслеживания привычек
 
