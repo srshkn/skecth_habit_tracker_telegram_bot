@@ -6,15 +6,16 @@ from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 
 
-from Config.config import Config, load_config
 from handlers.handlers import user_router
+from Config.config import Config, load_config
+
 
 async def main():
     config: Config = load_config()
 
     bot = Bot(
         token=config.bot.token,
-        default=DefaultBotProperties(parse_mode=ParseMode.HTML),
+        default=DefaultBotProperties(parse_mode=ParseMode.HTML, protect_content=True),
     )
 
     dp = Dispatcher()
@@ -26,4 +27,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-    
